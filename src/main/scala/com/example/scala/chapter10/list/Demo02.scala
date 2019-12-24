@@ -45,9 +45,12 @@ object Demo022 {
   def main(args: Array[String]): Unit = {
 
     val l1 = List(0, 1)
-//    val list = 1 :: 2 :: 3 :: Nil
+    //    val list = 1 :: 2 :: 3 :: Nil
     val list = 1 :: 2 :: 3 :: l1
     println(list)
+
+//    list(0) = 5
+    println(list.take(2))
 
   }
 
